@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/kierstenv/zookeepr#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "heroku": "^7.59.4"
   }
 }

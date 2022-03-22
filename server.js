@@ -18,14 +18,11 @@ const filterByQuery = (query, animalsArray) => {
         animal => animal.personalityTraits.indexOf(trait) !== -1
       );
     });
-  }
-  if (query.diet) {
+  } if (query.diet) {
     filteredResults = filteredResults.filter(animal => animal.diet === query.diet);
-  }
-  if (query.species) {
+  } if (query.species) {
     filteredResults = filteredResults.filter(animal => animal.species === query.species);
-  }
-  if (query.name) {
+  } if (query.name) {
     filteredResults = filteredResults.filter(animal => animal.name === query.name);
   }
   return filteredResults;

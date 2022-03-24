@@ -99,6 +99,16 @@
       "personalityTraits": [
         "hungry"
       ]
+    },
+    {
+      "name": "kswag",
+      "species": "kangaroo",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "zany",
+        "anxious"
+      ],
+      "id": "10"
     }
   ]
 }
